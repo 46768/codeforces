@@ -5,7 +5,7 @@ makeTemplate = '''target/{oname} : main.c | target
 \tgcc -o target/{oname} main.c
 
 target :
-\tmkdir -p target
+\tmkdir target
 
 .PHONY: run
 run :
