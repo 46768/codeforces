@@ -5,5 +5,5 @@ target :
 	mkdir target
 
 .PHONY: run
-run :
+run : target/BearAndBigBrother
 	./target/BearAndBigBrother
